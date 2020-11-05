@@ -1,0 +1,1 @@
+function demoFromHTML(){var t=new jsPDF("p","pt","letter");source=$("#customers")[0],specialElementHandlers={"#bypassme":function(e,t){return!0}},margins={top:80,bottom:60,left:40,width:2e3},t.fromHTML(source,margins.left,margins.top,{width:margins.width,elementHandlers:specialElementHandlers},function(e){t.save("Results.pdf")},margins)}

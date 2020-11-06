@@ -69,7 +69,7 @@
 		                $records = mysqli_query($db, "SELECT COM,name_commune,global_score,dpt_score,region_score,index1,index2,index3,index4,dept_name,region_name From data_13k where COM=$area_name");  // Use select query here
 		                $data = mysqli_fetch_array($records);
 		                if ($data == Null){
-		                	echo "Your Post Code was not found, please enter a valid one.";
+		                	echo "Your Commune Code was not found, please enter a valid one.";
 		                } else{
 		                // Presentation of results
 		                	echo "

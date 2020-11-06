@@ -47,9 +47,9 @@
 			<!-- Section where the user can use the tool -->
 			<section id="secondary_section" align = "justify">
 				<h2>Do you want to know the Index of Fragility in your area?</h2>
-				<p> You just need your Postal Code, if you do not know it you can find it on <a href="https://www.code-postal.com/" target="popup">code-postal.</a></p>
+				<p> You just need your Commune Code, if you do not know it you can find it on <a href="https://data.opendatasoft.com/explore/dataset/correspondance-code-insee-code-postal%40public/table/" target="popup">opendatasoft.</a></p>
 				<form method="post"  label="pc2">
-					<label>Enter your Postal Code here: </label>
+					<label>Enter your Commune Code here: </label>
 					<input type="number" name="area_name" label="pc"><br>
 					<button type="submit" name="submit">Submit</button>
 				</form>

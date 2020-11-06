@@ -76,7 +76,7 @@
 		                	<div id='customers'>
 		                	<table  >
 		                	<tr>
-		                	<th > <p  id='bypassme'>Postal code</p></th>
+		                	<th > <p  id='bypassme'>Commune code</p></th>
 		                	<th ><p >Commune name</p></th>
 		                	<th >Global score</th>
 		                	<th>Department score</th>
